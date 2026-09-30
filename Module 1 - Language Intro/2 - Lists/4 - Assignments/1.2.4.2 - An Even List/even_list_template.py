@@ -19,10 +19,17 @@ print("Your list is: ", even_list)
 """
 YOUR CODE BEGINS BELOW HERE. FILL IN THE MISSING OPERATIONS / CODE
 """
+list_length = len(even_list) #modify this line to perform the correct operation
 
+
+middle_index_1 = list_length // 2 #modify this line to perform the correct operation
+middle_index_2 = middle_index_1 - 1 #modify this line to perform the correct operation
+
+middle_element_1 = even_list[middle_index_1] #modify this line to perform the correct operation
+middle_element_2 = even_list[middle_index_2] #modify this line to perform
 
 # this is the final result. Modify this line, and the empty lines above, to solve the assignment
-middle_average = None
+middle_average = (middle_element_1 + middle_element_2) / 2 #modify this line to perform the correct operation
 
 # the average of middle elements is
 print("The average is: ", middle_average)

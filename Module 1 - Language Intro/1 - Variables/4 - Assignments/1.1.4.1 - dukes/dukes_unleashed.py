@@ -12,8 +12,9 @@ Note: this problem does not require the "compounding interest" formula from the 
 
 """
 
-### Your code here ###
+in_state_gift = 30792 / 0.05
+out_state_gift = 47882 / 0.05
 
-in_state_gift = 0
 
-out_state_gift = 0
+print("In-state gift needed:", in_state_gift)
+print("Out-of-state gift needed:", out_state_gift)

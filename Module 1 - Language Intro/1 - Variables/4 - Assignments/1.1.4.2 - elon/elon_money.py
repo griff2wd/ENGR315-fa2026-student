@@ -12,11 +12,19 @@ the 20-year bonds pay 4.32%, with each compounding annually.
 Note that Elon's capital will be $33B.
 """
 
-### all your code below ###
+principal = 33000000000  # initial amount to be deposited (Elon's capital)
+ten_year_rate = 3.96  # interest rate applied to deposit (will be divided by 100)
+twenty_year_rate = 4.32  # interest rate applied to deposit (will be divided by 100)
+
+ten_year_final = principal * ((1 + (ten_year_rate / 100)) ** 10)
+twenty_year_final = principal * ((1 + (twenty_year_rate / 100)) ** 20)
+
+
+
 
 
 # final answer for 10-year
-ten_year_final = None
+ten_year_final = print("10-year final value:", ten_year_final)
 
 # final answer for 20-year
-twenty_year_final = None
+twenty_year_final = print("20-year final value:", twenty_year_final)
